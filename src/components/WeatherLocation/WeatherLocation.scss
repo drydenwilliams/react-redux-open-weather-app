@@ -1,0 +1,35 @@
+/*
+    Designspiration 
+    https://dribbble.com/shots/2117452-Weather-App-Concept
+*/
+
+.weather-forecasts-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.weather-forecasts-list__item {
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFF;
+
+    &--freezing {
+        background-color: #A5CCCA;
+    }
+
+    &--cold {
+        background-color: #F4CD8B;
+    }
+
+}
+
+.weather-forecasts-list__item .weather-content {
+        .max-temp {
+            font-size: 120px;
+        }
+        .min-temp {
+            font-size: 20px;
+        }
+    }
